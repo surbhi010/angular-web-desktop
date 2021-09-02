@@ -1,0 +1,19 @@
+.app-outer-container {
+    height: calc(100vh - 40px);
+    display: flex;
+    flex-direction: column;
+}
+.app-main-container {
+    display: flex;
+    height: 100%;
+    flex: 1;
+}
+
+.app-sidebar-container {
+    height: 100%;
+    box-shadow: 0 12px 20px 0 rgb(0 0 0 / 20%);
+}
+
+.app-content-container {
+    flex: 1;
+}

@@ -1,0 +1,13 @@
+<div class="app-outer-container">
+    <app-header [title]="title"></app-header>
+    <div class="app-main-container">
+        <div class="app-sidebar-container">
+            <app-sidebar [links]="sidebarLinks"></app-sidebar>
+        </div>
+        <div class="app-content-container">
+            <app-content>
+                <ng-content></ng-content>
+            </app-content>
+        </div>
+    </div>
+</div>

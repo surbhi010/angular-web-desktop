@@ -1,0 +1,13 @@
+#taskbar{
+    position: fixed;
+    bottom: 0;
+    height: 40px;
+    background: rgba(0,0,0,0.9);
+    width: 100%;
+    text-align: center;
+    img{
+        height: 30px;
+        width: 30px;
+        padding: 5px 10px;
+    }
+}

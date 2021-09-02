@@ -1,0 +1,5 @@
+<div>
+    <div *ngFor="let link of links" class="sidebar-link">
+        <a [routerLink]="link.route">{{ link.name }}</a>
+    </div>
+</div>
